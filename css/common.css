@@ -46,3 +46,41 @@ img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding: 10px;
 }
+
+
+/* ---------------------- */
+
+.login-form {
+  display: flex;
+  max-width: 400px;
+  flex-direction: column;
+  text-align: center;
+  margin-right: auto;
+  align-items: flex-start;
+  padding: 32px;
+
+  gap: 8px;
+}
+
+.login-form label{
+  width: 325px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-form label input {
+  width: 250px;
+  align-self: flex-end;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 150px;
+  margin: 0 auto;
+
+  border: 1px solid #212121;
+  border-radius: 5px;
+  background-color: #ffa500;
+}
+
+/* ---------------------- */
