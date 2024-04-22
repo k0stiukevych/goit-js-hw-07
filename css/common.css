@@ -81,6 +81,29 @@ img {
   border: 1px solid #212121;
   border-radius: 5px;
   background-color: #ffa500;
+
+  margin-top: 20px;
 }
 
 /* ---------------------- */
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+#controls button {
+  border: 1px solid #212121;
+    border-radius: 5px;
+    background-color: #ffa500;
+}
+
+#controls input {
+  border-radius: 5px;
+}
