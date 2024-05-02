@@ -14,7 +14,7 @@ function toSubmit(event) {
     return;
   }
 
-  console.log(`Login: ${email}, Password: ${password}`);
+  console.log({ email, password });
 
   form.reset();
 }
